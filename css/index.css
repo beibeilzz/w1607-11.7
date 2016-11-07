@@ -1,0 +1,164 @@
+ul,li,p{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/*导航*/
+.out-nav{
+    width:100%;
+    height:44px;
+    background-color: #000;
+}
+.out-nav .nav{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify:distribute-all-lines;
+}
+.out-nav .nav li{
+    width:auto;
+    height:100%;
+    float: left;
+}
+.out-nav .nav li a{
+    padding:0 10px;
+    line-height: 44px;
+    font-size:16px;
+    font-weight: 400;
+}
+.out-nav .nav li:nth-of-type(1) a{
+    padding:0 10px;
+    width:40px;
+    height:44px;
+    display: block;
+    background-image: url("../img/image_large.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.out-nav .nav li:nth-of-type(9) a{
+    padding:0 10px;
+    width:40px;
+    height:44px;
+    display: block;
+    background-image: url("../img/image_large (2).svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.out-nav .nav li:nth-of-type(10) a{
+    padding:0 10px;
+    width:40px;
+    height:44px;
+    display: block;
+    background-image: url("../img/image_large (1).svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+/*banner*/
+.banner{
+    height:540px;
+    position: relative;
+}
+.banner .imgbox{
+    height:100%;
+    position: relative;
+}
+
+.banner .imgbox a>p{
+    width:100%;
+    height:30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.banner .imgbox a{
+    width:100%;
+    height:540px;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: 50%,0;
+}
+.banner .imgbox a span{
+    font-size:30px;
+    position: absolute;
+    top:35px;
+    right:0;
+    left: 0;
+    margin:0 auto;
+    text-align: center;
+}
+.banner .imgbox a:nth-of-type(3)>p{
+    width:100%;
+    height:24px;
+    position: absolute;
+    top: -65px;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.banner .imgbox a:nth-of-type(3){
+    width:100%;
+    height:432px;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.banner .imgbox a:nth-of-type(3)>span{
+    top:-35px;
+    color: #000;
+}
+.banner .left,.banner .right{
+    width:64px;
+    height:64px;
+    border-radius: 50%;
+    background-color: rgba(45,45,45,0.3);
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin:auto 0;
+    font-family: "宋体";
+    font-size: 40px;
+    line-height: 64px;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    display: none;
+}
+.banner .left{
+    left:30px;
+}
+.banner .right{
+    right:30px;
+}
+
+.container .row .goods{
+    height:200px;
+    padding: 1px 0;
+}
+.container .row .goods li{
+    height:100%;
+}
+.container .row .goods li a{
+    display: block;
+    height:100%;
+    border: 1px solid #fff;
+}
+.container .row .goods li a{
+    /*background-repeat: no-repeat;*/
+    background-position: center center;
+}
